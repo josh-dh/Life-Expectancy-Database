@@ -8,6 +8,7 @@ graphing of data using turtle
 from rit_lib import *
 import utils
 import turtle as t
+t.tracer(0,0)
 
 def graph(data, x, y, legend):
 	"""
